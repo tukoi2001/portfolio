@@ -3,11 +3,11 @@
 import classNames from 'classnames';
 import Link from 'next/link';
 import {
-  HomeIcon,
+  SquareUserIcon,
   BriefcaseBusinessIcon,
   NotebookTabsIcon,
   GraduationCapIcon,
-  ContactIcon,
+  PhoneIcon,
 } from 'lucide-react';
 
 import { buttonVariants } from '@/config/variants';
@@ -17,11 +17,11 @@ import { Separator } from '@/components/separator';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/tooltip';
 
 const menuItems = [
-  { href: '/', icon: HomeIcon, label: 'Home' },
+  { href: '/', icon: SquareUserIcon, label: 'About me' },
   { href: '/skills', icon: BriefcaseBusinessIcon, label: 'Skills' },
   { href: '/experiences', icon: NotebookTabsIcon, label: 'Experiences' },
   { href: '/education', icon: GraduationCapIcon, label: 'Education' },
-  { href: '/contact', icon: ContactIcon, label: 'Contact' },
+  { href: '/contact', icon: PhoneIcon, label: 'Contact' },
 ];
 
 export default function Navbar() {

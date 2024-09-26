@@ -19,7 +19,7 @@ const Separator = forwardRef<
       decorative={decorative}
       orientation={orientation}
       className={classNames(
-        'shrink-0 bg-border',
+        'shrink-0 bg-secondary',
         orientation === 'horizontal' ? 'h-[1px] w-full' : 'h-full w-[1px]',
         className,
       )}

@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     title: 'Tu Xuan - Frontend Developer Portfolio',
     description:
       'Frontend developer specializing in Vue, React, Next.js, and modern web technologies. Explore my projects and skills.',
-    url: 'https://your-portfolio-domain.com', //TODO:
+    url: 'https://xuan-tu-dev.vercel.app',
     type: 'website',
     images: [
       {
-        url: 'https://your-portfolio-domain.com/og-image.jpg', //TODO:
-        width: 1200,
-        height: 630,
+        url: 'https://xuan-tu-dev.vercel.app/tran-xuan-tu.png',
+        width: 600,
+        height: 600,
         alt: 'Tu Xuan Portfolio',
       },
     ],

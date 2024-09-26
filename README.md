@@ -14,6 +14,6 @@ Hello! I'm Xuan Tu, a Frontend Developer passionate about creating amazing web e
 
 🐙 [GitHub](https://github.com/tukoi2001).
 
-🌐 [Portfolio](URL).
+🌐 [Portfolio](https://xuan-tu-dev.vercel.app).
 
 Thank you for visiting my portfolio! 😊

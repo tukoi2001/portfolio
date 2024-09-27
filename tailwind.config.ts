@@ -50,12 +50,12 @@ const config = {
           '0%, 100%': {
             opacity: '1',
             transform: 'scale(1)',
-            'box-shadow': '0 0 0 0 rgba(0, 0, 0, .2)',
+            'box-shadow': '0 0 0 0 var(--shadow)',
           },
           '50%': {
             opacity: '.8',
             transform: 'scale(1.01)',
-            'box-shadow': '0 0 2px 4px rgba(0, 0, 0, .2)',
+            'box-shadow': '0 0 4px 10px var(--shadow)',
           },
         },
       },
@@ -63,6 +63,9 @@ const config = {
         'back-rotating': 'back-rotating 20s linear infinite',
         rotating: 'rotating 20s linear infinite',
         pulse: 'pulse 1s ease-in-out infinite',
+      },
+      boxShadow: {
+        custom: '0 0 2px 5px var(--shadow)',
       },
     },
   },

@@ -7,6 +7,7 @@ import { TooltipProvider } from '@/components/tooltip';
 import type { Metadata } from 'next';
 
 import './globals.css';
+import './scroll-bar.css';
 
 const fontSans = Inter({
   subsets: ['latin'],

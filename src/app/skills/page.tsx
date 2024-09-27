@@ -59,7 +59,7 @@ export default function SkillsPage() {
         <div className="flex flex-col gap-2 overflow-hidden">
           <BlurFadeText
             delay={BLUR_FADE_DELAY}
-            className="uppercase font-normal text-xl text-muted-foreground"
+            className="uppercase font-normal text-xl text-muted-foreground pt-2"
             text="Skills"
           />
           <BlurFade delay={BLUR_FADE_DELAY * 2}>

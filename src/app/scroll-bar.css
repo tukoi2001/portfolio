@@ -1,0 +1,101 @@
+/*
+
+BROWSER SCROLLBAR KITS
+
+*/
+
+/* CHROME & SAFARI */
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--primary-foreground);
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: var(--input);
+  border-radius: 10px;
+}
+
+/* MOZILLA FIREFOX */
+*::-moz-scrollbar {
+  width: 2px;
+}
+
+*::-moz-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-moz-scrollbar-thumb {
+  background: var(--primary-foreground);
+  border-radius: 8px;
+}
+
+*::-moz-scrollbar-thumb:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+*::-moz-scrollbar-thumb:active {
+  background: var(--input);
+  border-radius: 10px;
+}
+
+/* MICROSOFT INTERNET EXPLORER */
+*::-ms-scrollbar {
+  width: 2px;
+}
+
+*::-ms-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-ms-scrollbar-thumb {
+  background: var(--primary-foreground);
+  border-radius: 8px;
+}
+
+*::-ms-scrollbar-thumb:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+*::-ms-scrollbar-thumb:active {
+  background: var(--input);
+  border-radius: 10px;
+}
+
+/* OPERA */
+*::-o-scrollbar {
+  width: 2px;
+}
+
+*::-o-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-o-scrollbar-thumb {
+  background: var(--primary-foreground);
+  border-radius: 8px;
+}
+
+*::-o-scrollbar-thumb:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+*::-o-scrollbar-thumb:active {
+  background: var(--input);
+  border-radius: 10px;
+}

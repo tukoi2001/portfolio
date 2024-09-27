@@ -9,7 +9,7 @@ import BlurFadeText from '@/components/blur-fade-text';
 
 export default function Page() {
   return (
-    <main className="flex flex-col justify-center items-center md:flex-row gap-10 md:gap-20 min-h-[100dvh] pb-[60px] px-5">
+    <main className="flex flex-col justify-center items-center md:flex-row gap-10 md:gap-20 min-h-[100dvh] pb-[100px] pt-[50px] px-5 overflow-y-auto">
       <BlurFade delay={BLUR_FADE_DELAY} className="flex-shrink-0">
         <div className="flex justify-center items-center">
           <div className="relative aspect-square rounded-full w-[270px] h-[270px]">
@@ -57,7 +57,7 @@ export default function Page() {
           text="Xuan Tu"
         />
         <BlurFadeText
-          className="max-w-[600px text-2xl md:text-4xl font-light"
+          className="max-w-[600px] text-2xl md:text-4xl font-light"
           delay={BLUR_FADE_DELAY * 2}
           text="A Full-Stack Developer with expertise in both Front End and Back End technologies."
         />

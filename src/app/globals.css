@@ -18,6 +18,7 @@
     --accent-foreground: #171717;
     --destructive: #ef4444;
     --destructive-foreground: #fafafa;
+    --shadow: rgba(0, 0, 0, 0.2);
   }
 
   .dark {
@@ -35,6 +36,7 @@
     --accent-foreground: #fafafa;
     --destructive: #7f1d1d;
     --destructive-foreground: #fafafa;
+    --shadow: rgba(255, 255, 255, 0.2);
   }
 }
 

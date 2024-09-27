@@ -14,6 +14,7 @@ import { buttonVariants } from '@/config/variants';
 import { Dock, DockIcon } from '@/components/dock';
 import ModeToggle from '@/components/mode-toggle';
 import { Separator } from '@/components/separator';
+import { BorderBeam } from '@/components/border-beam';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/tooltip';
 
 const menuItems = [
@@ -53,6 +54,7 @@ export default function Navbar() {
         <DockIcon>
           <ModeToggle />
         </DockIcon>
+        <BorderBeam duration={5} size={100} anchor={100} borderWidth={2} />
       </Dock>
     </div>
   );

@@ -39,12 +39,20 @@ const config = {
       },
       keyframes: {
         'back-rotating': {
-          from: { transform: 'rotate(0deg)' },
-          to: { transform: 'rotate(-360deg)' },
+          from: {
+            transform: 'rotate(0deg)',
+          },
+          to: {
+            transform: 'rotate(-360deg)',
+          },
         },
         rotating: {
-          from: { transform: 'rotate(0deg)' },
-          to: { transform: 'rotate(360deg)' },
+          from: {
+            transform: 'rotate(0deg)',
+          },
+          to: {
+            transform: 'rotate(360deg)',
+          },
         },
         pulse: {
           '0%, 100%': {
@@ -58,11 +66,17 @@ const config = {
             'box-shadow': '0 0 4px 10px var(--shadow)',
           },
         },
+        'border-beam': {
+          '100%': {
+            'offset-distance': '100%',
+          },
+        },
       },
       animation: {
         'back-rotating': 'back-rotating 20s linear infinite',
         rotating: 'rotating 20s linear infinite',
         pulse: 'pulse 1s ease-in-out infinite',
+        'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
       },
       boxShadow: {
         custom: '0 0 2px 5px var(--shadow)',

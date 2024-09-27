@@ -7,6 +7,7 @@ import { TooltipProvider } from '@/components/tooltip';
 import type { Metadata } from 'next';
 
 import './globals.css';
+import './scroll-bar.css';
 
 const fontSans = Inter({
   subsets: ['latin'],
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://xuan-tu-dev.vercel.app/tran-xuan-tu.png',
-        width: 600,
+        width: 1200,
         height: 600,
         alt: 'Tu Xuan Portfolio',
       },
@@ -59,7 +60,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={classNames(
-          'bg-background font-sans antialiased max-w-2xl mx-auto',
+          'bg-background font-sans antialiased max-w-5xl mx-auto',
           fontSans.variable,
         )}
         suppressHydrationWarning

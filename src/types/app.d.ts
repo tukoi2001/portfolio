@@ -1,9 +1,11 @@
 declare namespace App {
   import('react');
   import('class-variance-authority');
+  import('react-icon-cloud');
 
   import type { PropsWithChildren } from 'react';
   import { cva, type VariantProps } from 'class-variance-authority';
+  import { fetchSimpleIcons } from 'react-icon-cloud';
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   type Any = any;
@@ -52,5 +54,58 @@ declare namespace App {
     inView?: boolean;
     inViewMargin?: string;
     blur?: string;
+  };
+
+  type BorderBeamProps = {
+    className?: string;
+    size?: number;
+    duration?: number;
+    borderWidth?: number;
+    anchor?: number;
+    colorFrom?: string;
+    colorTo?: string;
+    delay?: number;
+  };
+
+  type TypingAnimationProps = {
+    text: string;
+    duration?: number;
+    className?: string;
+  };
+
+  type DynamicCloudProps = {
+    iconSlugs: string[];
+  };
+
+  type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
+
+  type ParticlesProps = {
+    className?: string;
+    quantity?: number;
+    staticity?: number;
+    ease?: number;
+    size?: number;
+    refresh?: boolean;
+    color?: string;
+    vx?: number;
+    vy?: number;
+  };
+
+  type Circle = {
+    x: number;
+    y: number;
+    translateX: number;
+    translateY: number;
+    size: number;
+    alpha: number;
+    targetAlpha: number;
+    dx: number;
+    dy: number;
+    magnetism: number;
+  };
+
+  type MousePosition = {
+    x: number;
+    y: number;
   };
 }

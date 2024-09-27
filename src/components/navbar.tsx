@@ -3,25 +3,26 @@
 import classNames from 'classnames';
 import Link from 'next/link';
 import {
-  HomeIcon,
+  SquareUserIcon,
   BriefcaseBusinessIcon,
   NotebookTabsIcon,
   GraduationCapIcon,
-  ContactIcon,
+  PhoneIcon,
 } from 'lucide-react';
 
 import { buttonVariants } from '@/config/variants';
 import { Dock, DockIcon } from '@/components/dock';
 import ModeToggle from '@/components/mode-toggle';
 import { Separator } from '@/components/separator';
+import { BorderBeam } from '@/components/border-beam';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/tooltip';
 
 const menuItems = [
-  { href: '/', icon: HomeIcon, label: 'Home' },
+  { href: '/', icon: SquareUserIcon, label: 'About me' },
   { href: '/skills', icon: BriefcaseBusinessIcon, label: 'Skills' },
   { href: '/experiences', icon: NotebookTabsIcon, label: 'Experiences' },
   { href: '/education', icon: GraduationCapIcon, label: 'Education' },
-  { href: '/contact', icon: ContactIcon, label: 'Contact' },
+  { href: '/contact', icon: PhoneIcon, label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -53,6 +54,7 @@ export default function Navbar() {
         <DockIcon>
           <ModeToggle />
         </DockIcon>
+        <BorderBeam duration={5} size={100} anchor={100} borderWidth={2} />
       </Dock>
     </div>
   );
